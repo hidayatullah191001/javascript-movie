@@ -1,0 +1,38 @@
+.carousel .item {
+  height: 550px;
+  top: auto;
+  bottom: auto;
+  background-color: #3A3535;
+}
+
+.item img {
+    min-height: 550px;
+    object-fit: cover;
+    width: 30%;
+}
+
+.carousel-caption{
+  display: block;
+  padding: 5px;
+  background-color: rgba(255, 115, 21, 0.8);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+.text-title{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
